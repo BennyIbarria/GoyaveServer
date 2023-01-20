@@ -1,0 +1,22 @@
+{
+    "app": {
+        "name": "goyave_template",
+        "environment": "localhost",
+        "debug": true,
+        "defaultLanguage": "en-US"
+    },
+    "server": {
+        "host": "127.0.0.1",
+        "maintenance": false,
+        "protocol": "http",
+        "domain": "localhost",
+        "port": 8080,
+        "httpsPort": 8081,
+        "timeout": 10,
+        "maxUploadSize": 10,
+        "tls": {
+            "cert": "/path/to/cert",
+            "key": "/path/to/key"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+routes:
+  - path: /ApiRestGoyave
+    method: GET
+    description: Obtiene una lista de todos los usuarios
+  - path: /ApiRestGoyave
+    method: POST
+    description: Crea un nuevo usuario
+  - path: /ApiRestGoyave/:id
+    method: PUT
+    description: Actualiza un usuario existente
+  - path: /ApiRestGoyave/:id
+    method: DELETE
+    description: Elimina un usuario existente
